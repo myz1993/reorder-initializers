@@ -1,14 +1,14 @@
 package com.github.hcsp.objectbasic;
 
 public class Cat {
-    public static int count = initStaticCount();
+
 
     static {
         System.out.println(1);
     }
 
-    int age = initAge();
-    String name;
+    //int age = initAge();
+     String name;
 
     {
         System.out.println(2);
@@ -18,11 +18,13 @@ public class Cat {
         System.out.println(3);
     }
 
+    int age = initAge();
+
     public int initAge() {
         System.out.println(4);
         return 0;
     }
-
+    int count = initStaticCount();
     public static int initStaticCount() {
         System.out.println(5);
         return 0;
