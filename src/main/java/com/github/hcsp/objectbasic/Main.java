@@ -1,7 +1,6 @@
 package com.github.hcsp.objectbasic;
 
 public class Main {
-    static int a = 2;
     public static void main(String[] args) {
         // 现在运行这个方法输出的数字是乱序的
         // 请将Cat中的初始化语句重新排序
